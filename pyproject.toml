@@ -1,0 +1,13 @@
+[project]
+name = "rcdiff"
+version = "1.0.1"
+description = "A small tool to generate and display diffs between 2 directory."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Waylong Leon" }]
+dependencies = [
+    "rich>=14.2.0",
+]
+
+[project.scripts]
+rcdiff = "main:cli"
